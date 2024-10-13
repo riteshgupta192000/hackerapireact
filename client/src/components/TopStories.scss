@@ -1,0 +1,44 @@
+.top-stories {
+    padding: 20px;
+    
+    input {
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .pagination {
+        margin-top: 1rem;
+        button {
+            margin: 0 0.5rem;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 1rem;
+
+            a {
+                text-decoration: none;
+                color: #0070f3;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
